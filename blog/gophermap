@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+printf "my bashblog posts\n"
+user=$(stat -c '%U' .)
+for post in $(ls -t *.md); do
+post=$(basename $post)
+printf "0$post\t/~$user/blog/$post\ttilde.team\t70\n"
+done

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>my tildelog</title><link>https://tilde.team/~darksoul/blog/index.html</link>
+<description>a blog about tildes</description><language>en</language>
+<lastBuildDate>Sat, 07 Aug 2021 08:48:26 +0000</lastBuildDate>
+<pubDate>Sat, 07 Aug 2021 08:48:26 +0000</pubDate>
+<atom:link href="https://tilde.team/~darksoul/blog/feed.rss" rel="self" type="application/rss+xml">
+<item><title>
+Blogs ummm
+</title><description><![CDATA[
+
+<p>Will write blogs about software and other stuffs happing in my life or web</p>
+
+<!-- text end -->
+]]></description><link>https://tilde.team/~darksoul/blog/blogs-ummm.html</link>
+<guid>https://tilde.team/~darksoul/blog/./blogs-ummm.html</guid>
+<dc:creator>~darksoul</dc:creator>
+<pubDate>Sat, 07 Aug 2021 08:48:22 +0000</pubDate></item>
+</channel></rss>

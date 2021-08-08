@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+printf "20 text/gemini\r\n"
+printf "my bashblog posts\r\n"
+user=$(stat -c '%U' $0)
+for post in $(ls -t /home/$user/public_gemini/blog/*.md); do
+post=$(basename $post)
+printf "=> /~$user/blog/$post $post\r\n"
+done
